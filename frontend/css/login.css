@@ -1,0 +1,183 @@
+body {
+  background-image: url("../public/000-9gj2lj-1@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.pass {
+  margin-left: auto; /* Push "Forget Password?" to the right */
+  margin-left: 15px; /* Adjust this value to your preference */
+}
+
+form .txt_field {
+  position: relative;
+  border: 2px solid #adadad;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 310px; /* Adjust this value to your desired width */
+}
+
+.txt_field input {
+  width: 80%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #ff4f00;
+
+  transition: 0.5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  content: "";
+  /* top: -5px; */
+  color: #ff4f00;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+  width: 80%;
+}
+/* .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  
+  .pass:hover{
+    text-decoration: underline;
+  } */
+
+.pass {
+  margin: -5px 0 20px 5px; /* Adjust margins as needed */
+  color: #a6a6a6; /* Text color */
+  cursor: pointer; /* Change cursor on hover to indicate interactivity */
+  font-size: 14px; /* Font size */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.pass:hover {
+  text-decoration: underline; /* Underline text on hover */
+  color: #333; /* Change text color on hover */
+}
+
+input[type="Submit"] {
+  width: 310px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 17px;
+  align-content: center;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 11px;
+}
+
+input[type="Submit"]:hover {
+  background: #ff4f00;
+  color: #e9f4fb;
+  transition: 0.5s;
+}
+
+.txt_field input:focus ~ label {
+  display: none; /* Hide the label when the input is focused */
+}
+
+.txt_field input:valid ~ label {
+  display: none; /* Hide the label when the input is valid */
+}
+
+.my-container {
+  margin: 35px;
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65rem;
+  /* margin-top: 200px; */
+}
+.bg-orange {
+  background-color: #ff4f00;
+}
+.logo {
+  size: 56px;
+  color: black;
+  font-family: inter;
+  font-weight: 900;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 40px;
+}
+.welcome {
+  color: white;
+  font-family: courier new;
+  font-weight: 550;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.feeding {
+  font-family: inter;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-top: 5rem;
+  margin-bottom: -14px;
+}
+.my-rounded {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.my-rounded-r {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.traditional.box {
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+.layered.box {
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 13px 20px hsl(0deg 3% 0% / 1.075), 0 17px 24px hsl(0deg 0% 0% / 1.075),
+    0 30px 23px hsl(0deg 0% 0% / -0.925), 0 32px 21px hsl(0deg 0% 0% / 0.075);
+}
+.welcome2 {
+  font-family: fantasy;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 45px;
+}
+.form-txt {
+  color: #828282;
+  text-align: center;
+}

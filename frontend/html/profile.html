@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-child"></div>
+      <div class="header-inner"></div>
+      <h2 class="foodbank"><span>Food</span><span class="bank">Bank</span></h2>
+      <nav class="frame-nav">
+        <ul id="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="our-impact.html">Our Impact</a></li>
+          <li id="auth-links"></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="profile-container">
+      <section class="profile-info">
+        <img
+          id="profile-pic"
+          src="../public/defaultDP.jpg"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <h1 id="full-name">User Name</h1>
+        <p id="email">user@example.com</p>
+      </section>
+
+      <section class="donation-stats">
+        <h2>Donations Made</h2>
+        <ul id="donations-made">
+          <!-- Donations made will be listed here -->
+        </ul>
+
+        <h2>Donations Received</h2>
+        <ul id="donations-received">
+          <!-- Donations received will be listed here -->
+        </ul>
+      </section>
+    </main>
+    <script defer src="../js/profile.js"></script>
+  </body>
+</html>

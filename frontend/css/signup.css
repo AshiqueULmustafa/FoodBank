@@ -1,0 +1,53 @@
+.role-box {
+  border: 2px solid #ccc;
+  padding: 10px; /* Added padding for better spacing */
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  border-radius: 15px; /* Rounded corners */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.role-box.selected {
+  border-color: #ff6600; /* Change border to orange when selected */
+  background-color: #ff6600; /* Change background to orange when selected */
+  color: white; /* Change text color to white when selected */
+}
+
+.txt_field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: #333;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  color: #007bff;
+  font-size: 12px;
+}

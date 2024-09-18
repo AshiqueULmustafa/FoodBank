@@ -1,0 +1,41 @@
+/* styles.css */
+
+.header {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.donation-stats {
+  margin-top: 20px;
+}
+
+.donation-stats h2 {
+  margin-bottom: 10px;
+}
+
+.donation-stats ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.donation-stats li {
+  padding: 5px 0;
+}

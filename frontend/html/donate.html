@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Donate Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/global2.css" />
+    <link rel="stylesheet" href="../css/donate.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      .my-row {
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+      }
+      .my-icon {
+        height: 692px;
+        width: 33rem;
+        border-radius: 20px;
+      }
+      .popup.hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-child"></div>
+      <div class="header-inner"></div>
+      <h2 class="foodbank"><span>Food</span><span class="bank">Bank</span></h2>
+      <nav class="frame-nav">
+        <nav class="about-parent">
+          <div class="about">About</div>
+          <div class="our-impact">Our Impact</div>
+          <div class="join-us">Join Us</div>
+          <div class="login" id="loginText2" onclick="location.href='login.html';">Login</div>
+        </nav>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="my-row d-flex flex-row">
+        <div>
+          <img class="my-icon" src="../public/0-1@2x.png" />
+        </div>
+        <div>
+          <div class="donate-inner">
+            <div class="frame-parent17">
+              <div class="donate-parent">
+                <h1 class="donate3">Donate</h1>
+                <div class="to-help-others-wrapper">
+                  <h2 class="to-help-others">To help others!</h2>
+                </div>
+              </div>
+              <div class="food-details-parent">
+                <b class="food-details1">
+                  <!-- <span class="ood-details">Food Details:</span> -->
+                </b>
+                <form class="frame-form" id="donationForm">
+                  <div class="frame-parent18">
+                    <div class> Donor's Name:
+                      <input
+                      class="name"
+                      id="name"
+                      placeholder="Name"
+                      type="text"
+                      
+                    />
+                    </div>
+                    Food name:
+                    <div class="food-name-wrapper">
+                      <input
+                        class="food-name"
+                        id="foodName"
+                        placeholder="Food..."
+                        type="text"
+                        required
+                      />
+                    </div>
+                    Quantity:
+                    <div class="amount-container">
+                      <input
+                        class="amount"
+                        id="amount"
+                        placeholder="..kg"
+                        type="text"
+                        required
+                      />
+                    </div>
+                    Location
+                    <div class="location-container">
+                      <input
+                        class="location"
+                        id="receiveLocation"
+                        placeholder="Location"
+                        type="text"
+                        required
+                      />
+                    </div>
+                    Date:
+                    <div class="receiving-time-wrapper">
+                      <input
+                        class="receiving-time"
+                        id="dateOfReceive"
+                        placeholder="01/01/2024"
+                        type="date"
+                        required
+                      />
+                    </div>
+                    Special Note:
+                    <div class="notes-container">
+                      <textarea
+                        class="notes"
+                        id="notes"
+                        placeholder="Any additional info"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="frame-parent20">
+                    <button type="submit" class="submit-wrapper">
+                      <b class="submit">Submit</b>
+                    </button>
+                    <button type="button" class="add-more-wrapper">
+                      <b class="add-more">Add more</b>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="popup" class="donation-confirmation popup hidden">
+      <div class="popup-main">
+        <div class="great-your-donation-container">
+          <p class="great">Great!</p>
+          <p class="your-donation-is popup-font">
+            Your donation is submitted successfully.
+          </p>
+          <p class="foundations-will-contact popup-font">
+            Foundations will contact you soon.
+          </p>
+        </div>
+        <div class="action-buttons">
+          <button class="buttons-container" onclick="closePopup()">
+            <b class="donate-more">Donate More</b>
+          </button>
+          <button class="buttons-container1">
+            <b class="see-impact" onclick="location.href='donations.html';">See impact</b>
+          </button>
+        </div>
+        <b class="back-to-home" onclick="location.href='index.html';"
+          >Back to home</b
+        >
+      </div>
+    </div>
+    <script src="../js/donate.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

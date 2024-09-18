@@ -1,0 +1,234 @@
+.gj2lj-1-icon1 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.receive-cash-icon2 {
+  width: 50px;
+  height: 100px;
+  position: relative;
+  object-fit: contain;
+}
+.receive-foods {
+  margin: 0;
+}
+.my-font {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  
+  /* align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+}
+.foods-from-richard {
+  font-weight: 500;
+}
+.packet-foods-from-richard-bann {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.you-have-to {
+  font-weight: 500;
+}
+.agrabad {
+  font-family: var(--font-inter);
+}
+.chattogram-by {
+  font-weight: 500;
+}
+.chattogram-by,
+.pm {
+  font-family: var(--font-inter);
+}
+.you-have-to-collect-from-agrab {
+  margin: 0;
+}
+.receive-foods-70-container,
+.richard-bann3 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.receive-foods-70-container {
+  height: 152px;
+  position: relative;
+}
+.richard-bann3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  /* gap: var(--gap-13xl); */
+}
+.receive4 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+  min-width: 103px;
+}
+.inner-cancel {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) 77.5px;
+  background-color: var(--color-orangered-200);
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inner-cancel:hover {
+  background-color: var(--color-orangered-100);
+}
+.cancel {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  min-width: 100px;
+}
+.inner-cancel-parent,
+.inner-cancel1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inner-cancel1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-lg) 78px;
+  background-color: transparent;
+  border-radius: var(--br-mini);
+  align-items: center;
+}
+.inner-cancel1:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.inner-cancel-parent {
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.click-to-copy {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.copy-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+  color: var(--color-orangered-200);
+}
+.receive3,
+.richard-bann-parent1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.richard-bann-parent1 {
+  width: 1066px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-300);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  gap: 30px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.receive3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 192px var(--padding-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .richard-bann-parent1 {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .click-to-copy,
+  .receive-foods-70-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .inner-cancel-parent {
+    flex-wrap: wrap;
+  }
+  .richard-bann-parent1 {
+    gap: var(--gap-base);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .receive-foods-70-container {
+    font-size: var(--font-size-lgi);
+  }
+  .richard-bann3 {
+    gap: var(--gap-base);
+  }
+  .receive4 {
+    font-size: var(--font-size-lgi);
+  }
+  .inner-cancel {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cancel {
+    font-size: var(--font-size-lgi);
+  }
+  .inner-cancel1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .click-to-copy {
+    font-size: var(--font-size-lgi);
+  }
+}
